@@ -1,0 +1,43 @@
+{
+  "name": "user-blog-graphql-api",
+  "version": "1.0.0",
+  "description": "User blog post using GraphQL as api",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "eval $(cat .env) nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innowhat/user-blog-graphql-api.git"
+  },
+  "keywords": [
+    "graphql",
+    "node",
+    "express",
+    "react"
+  ],
+  "author": "Innocent  Okeke (@innowhat)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innowhat/user-blog-graphql-api/issues"
+  },
+  "homepage": "https://github.com/innowhat/user-blog-graphql-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dataloader": "^2.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "graphql-playground-middleware-express": "^1.7.18",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
