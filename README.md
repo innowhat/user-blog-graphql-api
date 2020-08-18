@@ -1,6 +1,7 @@
 # MULTI USER BLOG GRAPHQL API
 
 This is a multi-user blogging application with a GraphQL API powered by express server.
+[Live Demo](https://user-blog-graphql-api.herokuapp.com/playground)
 
 ## Features
 
